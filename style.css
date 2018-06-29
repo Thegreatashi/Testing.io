@@ -54,8 +54,7 @@ ul{
 }
 
 @@media screen and (max-width:480px) {
-  body{
-    background-size: cover;
-    background-attachment:
+  .box{
+    width: 500px;
   }
 }
