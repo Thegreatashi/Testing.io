@@ -52,3 +52,10 @@ ul{
 .box li a:hover{
   color: #b9b9b9;
 }
+
+@@media screen and (max-width:600px) {
+  body{
+    background-size: cover;
+    background-attachment: 
+  }
+}
