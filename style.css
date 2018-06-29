@@ -53,9 +53,9 @@ ul{
   color: #b9b9b9;
 }
 
-@@media screen and (max-width:600px) {
+@@media screen and (max-width:480px) {
   body{
     background-size: cover;
-    background-attachment: 
+    background-attachment:
   }
 }
