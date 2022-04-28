@@ -2,11 +2,12 @@ body{
   margin: 0;
   padding: 0;
   background: url(./pics/tori-1976609.jpg) no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center center;
   background-attachment: fixed;
 }
 .box{
-  width: 450px;
+  width: 500px;
   background: rgba(0, 0, 0, 0.4);
   padding: 40px;
   text-align: center;
@@ -23,12 +24,11 @@ body{
 }
 .box h1{
   font-size: 40px;
-  letter-spacing: 4px;
+  letter-spacing: 1px;
   font-weight: 100;
 }
 .box h5{
   font-size: 20px;
-  letter-spacing: 3px;
   font-weight: 100;
 }
 .box p{
@@ -40,13 +40,13 @@ ul{
 }
 .box li{
   display: inline-block;
-  margin: 6px;
+  margin: 8px;
   list-style: none;
 }
 .box li a{
   color: white;
   text-decoration: none;
-  font-size: 60px;
+  font-size: 40px;
   transition: all ease-in-out 250ms;
 }
 .box li a:hover{
