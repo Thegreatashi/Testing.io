@@ -7,17 +7,26 @@ body{
   background-attachment: fixed;
 }
 .box{
-  width: 100%;
+  width: 500px;
+  height: 680px;
   background: rgba(0, 0, 0, 0.4);
-  padding: auto;
+  padding: 40px;
   text-align: center;
-  margin: center;
-  margin-top: center;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
   color: white;
   font-family: 'Century Gothic',sans-serif;
   line-height: 1.5;
 }
 .box-img{
+  margin-top: 10px;
   border-radius: 50%;
   width: 200px;
   height: 200px;
