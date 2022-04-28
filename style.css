@@ -7,12 +7,12 @@ body{
   background-attachment: fixed;
 }
 .box{
-  width: 500px;
+  width: 100%;
   background: rgba(0, 0, 0, 0.4);
-  padding: 40px;
+  padding: auto;
   text-align: center;
-  margin: auto;
-  margin-top: 5%;
+  margin: center;
+  margin-top: center;
   color: white;
   font-family: 'Century Gothic',sans-serif;
   line-height: 1.5;
