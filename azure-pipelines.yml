@@ -23,6 +23,8 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'Docker Hub - zulmuh'
-        repository: 'zulmuh/epift:v1'
+        repository: 'zulmuh/epift'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
+        tags: |
+          $(tag)
