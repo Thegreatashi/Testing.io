@@ -9,6 +9,12 @@ terraform {
 
 provider "azurerm" {
   features {}
+
+  resource_group_name  = "TF-blob"
+  storage_account_name = "zulmuh"
+  container_name       = "tfstate"
+  key                  = "terraform.tfstate"
+
 }
 
 resource "azurerm_resource_group" "tf-epift" {
