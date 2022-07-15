@@ -26,6 +26,3 @@ stages:
         repository: 'zulmuh/epift:v1'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
-        tags: |
-          $(tag)
-    
