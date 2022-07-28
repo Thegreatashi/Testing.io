@@ -1,3 +1,3 @@
-# epift.github.io
+# zul-m.github.io
 
 My personal website
